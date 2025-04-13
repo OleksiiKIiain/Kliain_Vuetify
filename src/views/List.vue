@@ -47,21 +47,22 @@ import { ref } from 'vue'
 
 const shoppingList = ref([
   {
-    id: 'groceries',
-    title: 'Groceries',
+    id: 'books',
+    title: 'Books',
     bought: false,
   },
   {
-    id: 'electronics',
-    title: 'Electronics',
+    id: 'stationery',
+    title: 'Stationery',
     bought: false,
   },
   {
-    id: 'clothing',
-    title: 'Clothing',
+    id: 'snacks',
+    title: 'Snacks',
     bought: false,
   },
 ]);
+
 const newItemTitle = ref('')
 
 const settingsSelection = ref([]);

@@ -10,9 +10,9 @@
     </v-navigation-drawer>
 
     <v-app-bar
-      color="teal-darken-4"
-      image="https://picsum.photos/1920/1080?random"
       app
+      color="deep-purple accent-4"
+      dark
     >
       <template v-slot:image>
         <v-img
@@ -54,7 +54,7 @@ export default defineComponent({
     items: [
       { title: 'List', icon: 'mdi-format-list-checks', to: '/' },
       { title: 'About', icon: 'mdi-help-box', to: '/about' },
-      { title: 'MyGroup', icon: 'mdi-account-group', to: '/mygroup' },
+      { title: 'My Group', icon: 'mdi-account-group', to: '/group' },
     ],
     right: null as null | boolean,
   }),
